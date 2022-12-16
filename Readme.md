@@ -1,3 +1,14 @@
+# Xelion customized Sandbox Worker CLI
+
+To build run
+- docker build  -t registry.xelion.nl/xelion-sandbox .
+- docker push registry.xelion.nl/xelion-sandbox
+
+TODO:
+Fix tests. Originally a resourceLimit/executionLimit was set. I removed that, but didn't change expected results of tests. I guess that is the issue that some of them are failing.
+After fixing the tests, they should be run again via the build-linux-native-image.sh script (now they are ignored).
+
+
 # Sandbox Worker CLI (Runtime v2)
 
 [Sandbox](https://getsandbox.com) is a platform to quickly and easily create or generate web service mocks, with instant deploy, collaborative build, and debugging tools for API developers. [More info - https://getsandbox.com](https://getsandbox.com)

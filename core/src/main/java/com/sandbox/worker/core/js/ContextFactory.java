@@ -276,7 +276,7 @@ public class ContextFactory {
                 .allowHostClassLoading(false)
                 .allowIO(true)
                 .allowExperimentalOptions(true)
-                .resourceLimits(executionLimits)
+                //.resourceLimits(executionLimits)
                 .option("js.polyglot-builtin", "false")
                 .option("js.shared-array-buffer", "false")
                 .option("js.atomics", "false")
